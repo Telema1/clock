@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding :0;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+#timer{
+    margin: 0 6px;
+    color: silver;
+    position: absolute;
+    font-weight: 600;
+    letter-spacing: 3px;
+    border: 5px solid rgb(15, 85, 238);
+    border-radius: 5px;
+    font-display: 600px;
+    font-size: 100px;
+}
+h1{
+    color: silver;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 30px;  
+
+}
+
+#timer:hover{
+    background: rgb(15, 85, 238) ;
+}

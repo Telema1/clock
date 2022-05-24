@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+     <h1>My Digital Clock &#128151;</h1>
+     <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="timer"></div>
+
+    <script>
+      let timerSet=document.querySelector("#timer")
+      const timer=()=>{
+          let clock= new Date().toLocaleString('en-US',{hour:'numeric', minute:'numeric', second:'numeric',hour12:true})
+          
+          timerSet.innerHTML= clock
+          
+          
+        }
+        setInterval(timer, 1000)
+
+        
+
+    </script>
+</body>
+</html>
